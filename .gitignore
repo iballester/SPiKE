@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+modules/build/
+modules/dist/
+modules/pointnet2.egg-info/
+pointnet2.egg-info/
+
+# Local env files
+*.env
+*.venv
+.envrc
+
+# PyTorch / CUDA build artifacts
+*.so
+*.d
+
+# User files
+cookies.txt
+best_path.pth
+index.html?accept=zip
+
+# Dataset artifacts
+datasets/__pycache__/
+
+# VS Code
+.vscode/
+
+.github
